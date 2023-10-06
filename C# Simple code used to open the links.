@@ -1,0 +1,9 @@
+// Make sure to use System.Diagnostics
+
+var psi = new ProcessStartInfo
+            {
+                FileName = "link here",
+                UseShellExecute = true
+            };
+            Process.Start(psi);
+            Application.Exit();
