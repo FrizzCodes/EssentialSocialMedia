@@ -6,4 +6,5 @@ var psi = new ProcessStartInfo
                 UseShellExecute = true
             };
             Process.Start(psi);
+//Close the app
             Application.Exit();
